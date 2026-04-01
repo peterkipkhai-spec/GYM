@@ -33,4 +33,4 @@ A beginner-friendly multi-project .NET solution for a **Hotel Booking Management
 ## Notes
 - Connection strings use placeholders by default.
 - Architecture is clean and simple for learning.
-
+- 
