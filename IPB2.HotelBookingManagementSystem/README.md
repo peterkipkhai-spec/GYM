@@ -34,6 +34,3 @@ A beginner-friendly multi-project .NET solution for a **Hotel Booking Management
 - Connection strings use placeholders by default.
 - Architecture is clean and simple for learning.
 
-
-## Super quick share
-- If your friend is using Visual Studio and wants copy/paste setup steps, send `FRIEND_QUICK_START.txt`.
