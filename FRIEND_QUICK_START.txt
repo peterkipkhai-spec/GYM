@@ -1,0 +1,29 @@
+IPB2 Hotel Booking Management System - Quick Start (Visual Studio)
+=================================================================
+
+1) Unzip this folder.
+2) Open Visual Studio.
+3) Open this solution file:
+   IPB2.HotelBookingManagementSystem.sln
+
+4) Create database:
+   - Open SQL Server Management Studio.
+   - Run script:
+     IPB2.HotelBookingMS.Database\Scripts\hotel_booking_system.sql
+
+5) Update connection string in appsettings.json files:
+   "DefaultConnection": "Server=YOUR_SERVER_NAME;Database=hotel_booking_system;Trusted_Connection=True;TrustServerCertificate=True"
+
+6) Build:
+   Build > Build Solution
+
+7) Run:
+   - Right click one project and choose "Set as Startup Project"
+   - Press Ctrl+F5
+
+Projects you can run:
+- IPB2.HotelBookingMS.Console
+- IPB2.HotelBookingMS.WebApi
+- IPB2.HotelBookingMS.MinimalApi
+- IPB2.HotelBookingMS.MVC
+- IPB2.HotelBookingMS.MVCwithHttpClient
